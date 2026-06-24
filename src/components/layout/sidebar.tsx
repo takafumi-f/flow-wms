@@ -16,9 +16,14 @@ const navItems: NavItem[] = [
   { href: '/receiving', label: '入荷管理', icon: '📦' },
   { href: '/shipping', label: '出荷管理', icon: '🚚' },
   { href: '/inventory', label: '在庫管理', icon: '🗄️' },
+  { href: '/inventory/lots', label: 'ロット管理', icon: '🏷️' },
+  { href: '/alerts', label: 'アラート', icon: '🔔' },
+  { href: '/handy', label: 'ハンディ端末', icon: '📱' },
+  { href: '/portal', label: 'クライアントポータル', icon: '🌐' },
   { href: '/master/items', label: '商品マスタ', icon: '📋', roles: ['admin', 'manager'] },
   { href: '/master/partners', label: '取引先マスタ', icon: '🏢', roles: ['admin', 'manager'] },
   { href: '/master/users', label: 'ユーザー管理', icon: '👤', roles: ['admin'] },
+  { href: '/admin/clients', label: 'クライアント管理', icon: '🏭', roles: ['admin'] },
 ];
 
 interface SidebarProps {
