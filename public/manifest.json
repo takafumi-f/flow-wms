@@ -1,0 +1,21 @@
+{
+  "name": "FLOW WMS",
+  "short_name": "FLOW WMS",
+  "description": "EC特化型SaaS倉庫管理システム",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
